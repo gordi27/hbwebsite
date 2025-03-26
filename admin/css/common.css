@@ -1,0 +1,43 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* .h-font{
+    font-family: 'Merienda', cursive;
+} */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.swiper-slide {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Adjust based on your need */
+}
+.swiper-slide .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* For better visibility */
+}
+
+.custom-alert{
+    position: fixed;
+    top: 25px;
+    right: 25px;
+}
+
+/* .swiper-container {
+    margin-top: 10 !important;
+} */
